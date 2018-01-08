@@ -1,4 +1,4 @@
-This is a test
+# This is a test
 
-Make some changes in master branch
+We are now in branch: 'new-branch'
 
