@@ -1,0 +1,90 @@
+  227  git init
+  228  vim README.md
+  229  git add README.md 
+  230  git commit -m 'Initial check in'
+  231  git remote add origin https://github.com/ShannonScott/Sandbox.git
+  232  git remote -v
+  233  git push -u origin master
+  234  git branch foo
+  235  git status
+  236  ls
+  237  ls -a
+  238  mkdir sandbox
+  239  mv .git sandbox/
+  240  mv  README.md sandbox/
+  241  cd sandbox/
+  242  git status
+  243  gitk
+  244  git branch foo
+  245  git checkout -b foo
+  246  git checkout foo
+  247  vim README.md 
+  248  git status
+  249  git add README.md 
+  250  git commit -m 'Changes in readme'
+  251  git push -u origin master
+  252  gitk
+  253  git push -u origin
+  254  git push --set-upstream origin foo
+  255  emacs
+  256  vim README.md 
+  257  git status
+  258  git checkout master
+  259  gitk
+  260  vim README.md 
+  261  git status
+  262  git add README.md 
+  263  git commit -m 'Changes in readme for master'
+  264* 
+  265  git branch nwe-branch
+  266  git branch -m nwe-branch new-branch
+  267  git branch
+  268  git push origin new-branch
+  269  git checkout new-branch
+  270  vim README.md 
+  271  touch info.md
+  272  vim info.md 
+  273  git status
+  274  git add *.md
+  275  git commit -m 'Added new markdown file'
+  276  git branches
+  277  git branche
+  278  git branch
+  279  git push origin new-branch
+  280  gitk
+  281  git checkout master
+  282  git merge new-branch
+  283  git status
+  284  git push origin master
+  285  git branch -d new-branch
+  286  git push origin master
+  287  git push origin new-branch
+  288  git branch bar
+  289  git checkout bar
+  290  vim README.md 
+  291  git status
+  292  git add README.md 
+  293  git commit -m 'Added link for tutorial'
+  294  git push origin bar
+  295  git status
+  296  git checkout master
+  297  git merge bar
+  298  git status
+  299  git push origin master
+  300  git tree
+  301  git show-branch
+  302  git show-branch --list
+  303  git log
+  304  git log --graph
+  305  git log --graph --pretty=oneline
+  306  vim README.md 
+  307  git status
+  308  git add README.md 
+  309  git commit -m 'Cleaned up readme'
+  310  git push origin master
+  311  git push --help
+  312  git help
+  313  git help push
+  314  git push --all origin
+  315  git push --set-upstream origin master
+  316  history > git.20180108.txt
