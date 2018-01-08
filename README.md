@@ -1,4 +1,5 @@
 # This is a test
 
-We are now in branch: 'new-branch'
+Useful tutorial in branching in git:
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
